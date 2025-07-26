@@ -41,7 +41,7 @@ const Carts = () => {
             <h3 className='cart-qty'>Items: {qtyCart}</h3>
             <h3 className='cart-amount'>Total Amount: {totalAmount}</h3>
             <hr className='cart-hr' />
-            <button className='cart-button' onClick={() => { navigate("/success") }} >CheckOut</button>
+            <button className='cart-button' onClick={() => { navigate("/summary") }} >CheckOut</button>
           </div>
         </div>
       ) : (
