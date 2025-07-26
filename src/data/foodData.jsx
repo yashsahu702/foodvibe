@@ -185,7 +185,7 @@ const FoodData = [
     name: "Carbonara Pasta",
     price: 155,
     desc: "A creamy pasta dish made with eggs, cheese, pancetta, and pepper. Carbonara is a classic Italian meal perfect for a rich and satisfying lunch.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],// "Lunch",
     rating: 4.3,
   },
   {
@@ -203,7 +203,7 @@ const FoodData = [
     name: "Dal Makhani with Naan",
     price: 140,
     desc: "A rich and creamy black lentil curry served with soft butter naan. A comforting and satisfying dinner option from Indian cuisine.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.7,
   },
   {
@@ -248,7 +248,7 @@ const FoodData = [
     name: "Spaghetti Bolognese",
     price: 150,
     desc: "A hearty Italian pasta dish with a rich, meaty tomato sauce. Perfect for a filling and savory lunch.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.4,
   },
   {
@@ -257,7 +257,7 @@ const FoodData = [
     name: "Gatte Ki Sabzi",
     price: 150,
     desc: "Rajasthani gram‑flour dumplings simmered in a tangy yogurt‑based curry.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.4,
   },
   {
@@ -266,7 +266,7 @@ const FoodData = [
     name: "Palak Paneer",
     price: 160,
     desc: "Soft paneer cubes cooked in a fragrant, spiced spinach (palak) gravy.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.7,
   },
   {
@@ -275,7 +275,7 @@ const FoodData = [
     name: "Matar Paneer",
     price: 155,
     desc: "Green peas and paneer cubes simmered in onion‑tomato‑spice gravy.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.5,
   },
   {
@@ -284,7 +284,7 @@ const FoodData = [
     name: "Shahi Paneer",
     price: 165,
     desc: "Rich and creamy paneer curry with nuts and saffron—royal flavors.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.6,
   },
   {
@@ -293,7 +293,7 @@ const FoodData = [
     name: "Rajma Masala",
     price: 145,
     desc: "Hearty red kidney beans cooked in a spicy onion‑tomato gravy.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.5,
   },
   {
@@ -302,7 +302,7 @@ const FoodData = [
     name: "Dal Makhani",
     price: 150,
     desc: "Creamy black lentil curry slow‑cooked with butter and spices.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],// "Lunch",
     rating: 4.8,
   },
   {
@@ -500,7 +500,7 @@ const FoodData = [
     name: "Malai Kofta",
     price: 180,
     desc: "Soft paneer‑potato dumplings in creamy, mildly spiced gravy.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.5,
   },
   {
@@ -509,7 +509,7 @@ const FoodData = [
     name: "Shahi Paneer",
     price: 185,
     desc: "Paneer cubes in rich cashew‑cream and tomato gravy—royal Mughlai flavors.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],// "Dinner",
     rating: 4.7,
   },
   {
@@ -518,7 +518,7 @@ const FoodData = [
     name: "Palak Paneer",
     price: 175,
     desc: "Paneer cooked in a spiced spinach (palak) gravy.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.6,
   },
   {
@@ -527,7 +527,7 @@ const FoodData = [
     name: "Matar Paneer",
     price: 170,
     desc: "Green peas and paneer simmered in onion‑tomato gravy.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.5,
   },
   {
@@ -536,7 +536,7 @@ const FoodData = [
     name: "Rajma Masala",
     price: 160,
     desc: "Red kidney beans stewed in aromatic North Indian spices.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.6,
   },
   {
@@ -545,7 +545,7 @@ const FoodData = [
     name: "Dal Makhani",
     price: 155,
     desc: "Slow‑cooked black lentils in butter‑cream gravy.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.7,
   },
   {
@@ -554,7 +554,7 @@ const FoodData = [
     name: "Dum Aloo",
     price: 150,
     desc: "Baby potatoes slow‑cooked in yogurt‑tomato masala.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.4,
   },
   {
@@ -563,7 +563,7 @@ const FoodData = [
     name: "Aloo Gobi",
     price: 140,
     desc: "Cauliflower and potatoes spiced with turmeric, cumin, coriander.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.3,
   },
   {
@@ -572,7 +572,7 @@ const FoodData = [
     name: "Aloo Methi",
     price: 145,
     desc: "Potato stir‑fry with fresh fenugreek leaves and spices.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.4,
   },
   {
@@ -581,7 +581,7 @@ const FoodData = [
     name: "Baingan Bharta",
     price: 150,
     desc: "Roasted mashed eggplant cooked with onions and spices.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.5,
   },
   {
@@ -590,7 +590,7 @@ const FoodData = [
     name: "Bhindi Do Pyaza",
     price: 145,
     desc: "Okra stir‑fried with double onions and spices.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.3,
   },
   {
@@ -599,7 +599,7 @@ const FoodData = [
     name: "Pindi Chole",
     price: 165,
     desc: "Dry Punjabi style chickpea masala without too much gravy.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.6,
   },
   {
@@ -608,7 +608,7 @@ const FoodData = [
     name: "Aloo Shimla Mirch",
     price: 150,
     desc: "Potatoes and bell peppers sautéed with spices.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.4,
   },
   {
@@ -617,7 +617,7 @@ const FoodData = [
     name: "Sarson Ka Saag & Makki Roti",
     price: 170,
     desc: "Slow‑cooked mustard greens with spices, served with cornflour flatbread.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.8,
   },
   {
@@ -626,7 +626,7 @@ const FoodData = [
     name: "Samosa",
     price: 25,
     desc: "Crispy fried pastry with spicy potato filling.",
-    category: "Snacks",
+    category: ["Snacks", "Breakfast"],
     rating: 4.8,
   },
   {
@@ -635,7 +635,7 @@ const FoodData = [
     name: "Kachori",
     price: 30,
     desc: "Deep-fried flour balls stuffed with spicy lentils.",
-    category: "Snacks",
+    category: ["Snacks", "Breakfast"],
     rating: 4.6,
   },
   {
@@ -644,7 +644,7 @@ const FoodData = [
     name: "Vada Pav",
     price: 35,
     desc: "Mumbai-style potato vada in pav bun with chutneys.",
-    category: "Snacks",
+    category: ["Snacks", "Breakfast"],
     rating: 4.7,
   },
   {
@@ -653,7 +653,7 @@ const FoodData = [
     name: "Jalebi",
     price: 40,
     desc: "Crispy sweet spirals soaked in sugar syrup.",
-    category: "Snacks",
+    category: ["Snacks", "Breakfast"],
     rating: 4.9,
   },
   {
@@ -662,7 +662,7 @@ const FoodData = [
     name: "Pakora",
     price: 30,
     desc: "Assorted vegetables dipped in spiced gram flour and deep-fried.",
-    category: "Snacks",
+    category: ["Snacks", "Breakfast"],
     rating: 4.5,
   },
   {
@@ -716,7 +716,7 @@ const FoodData = [
     name: "Tandoori Roti",
     price: 80,
     desc: "Tandoori roti is a traditional Indian flatbread made from whole wheat flour and cooked in a clay oven for a smoky flavor and crisp edges.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],//"Dinner",
     rating: 4.9,
   },
   {
@@ -725,7 +725,7 @@ const FoodData = [
     name: "Onion Pizza",
     price: 150,
     desc: "A delicious pizza topped with fresh onions for a delightful flavor combination. This pizza is perfect for onion lovers and offers a unique twist on the classic pizza experience. Enjoy the perfect blend of cheesy goodness and the sharp taste of onions in every bite. Whether you're sharing with friends or enjoying it all to yourself, this Onion Pizza is sure to satisfy your pizza cravings.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.5,
   },
   {
@@ -734,7 +734,7 @@ const FoodData = [
     name: "Margherita Pizza",
     price: 130,
     desc: "A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, basil leaves, and a drizzle of olive oil. Simple yet bursting with flavors, this Margherita Pizza is a timeless favorite that captures the essence of Italian cuisine.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.2,
   },
   {
@@ -743,7 +743,7 @@ const FoodData = [
     name: "Pepperoni Pizza",
     price: 160,
     desc: "Indulge in the savory delight of this Pepperoni Pizza, loaded with slices of spicy pepperoni, melted cheese, and a tangy tomato sauce. A popular choice that's perfect for satisfying your pizza cravings.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.6,
   },
   {
@@ -752,7 +752,7 @@ const FoodData = [
     name: "Mushroom and Spinach Pizza",
     price: 140,
     desc: "Experience the earthy flavors of mushrooms combined with the freshness of spinach on this delightful pizza. Topped with a blend of cheeses, this Mushroom and Spinach Pizza offers a balanced and satisfying taste.",
-    category: "Lunch",
+    category: ["Lunch", "Dinner"],//"Lunch",
     rating: 4.2,
   },
   {
@@ -833,7 +833,7 @@ const FoodData = [
     name: "Vegetable Stir-Fry",
     price: 130,
     desc: "Enjoy a medley of colorful vegetables stir-fried in a flavorful sauce, served over steamed rice. A light and nutritious dinner that's both satisfying and wholesome.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],// "Dinner",
     rating: 4.2,
   },
   {
@@ -851,7 +851,7 @@ const FoodData = [
     name: "Mushroom Risotto",
     price: 175,
     desc: "Indulge in creamy and flavorful mushroom risotto, made with Arborio rice, sautéed mushrooms, and a touch of Parmesan cheese. A comforting and sophisticated dinner choice.",
-    category: "Dinner",
+    category: ["Lunch", "Dinner"],// "Dinner",
     rating: 4.5,
   },
   {

@@ -29,11 +29,14 @@ const Carts = () => {
             <span className='cart-subhead'>My Order</span>
             <RxCrossCircled className='cart-headicon' onClick={() => setVisibleCart(false)} />
           </div>
-          {
-          cart.length > 0 ? (cart.map((item) => (
-            <CartItems key={item.id} item={item} />
-          ))) : <h2 className='empty-cart'>Your Cart is Empty</h2>
-          }
+
+          <div className='cart-body'>
+            {
+              cart.length > 0 ? (cart.map((item) => (
+                <CartItems key={item.id} item={item} />
+              ))) : <h2 className='empty-cart'>Your Cart is Empty</h2>
+            }
+          </div>
           <div className='cart-foot'>
             <h3 className='cart-qty'>Items: {qtyCart}</h3>
             <h3 className='cart-amount'>Total Amount: {totalAmount}</h3>

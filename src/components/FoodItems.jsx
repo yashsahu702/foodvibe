@@ -11,12 +11,15 @@ const FoodItems = () => {
     <div className='fooditems'>
       {
         FoodData.filter((food) => {
+          const categories = Array.isArray(food.category) ? food.category : [food.category];
+
           if (currMenu === "All") {
             return food.name.toLowerCase().includes(search.toLowerCase());
+          } else {
+            return categories.includes(currMenu) &&
+              food.name.toLowerCase().includes(search.toLowerCase());
           }
-          else {
-            return food.category === currMenu && food.name.toLowerCase().includes(search.toLowerCase())
-          }
+
         }).map((item) =>
         (
           <FoodCart key={item.id}
