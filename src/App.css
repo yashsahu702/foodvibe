@@ -604,12 +604,18 @@ body {
 /* 🔁 Mobile Responsiveness */
 @media (max-width: 600px) {
   .summary-item {
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .summary-item p:last-child {
-    align-self: flex-end;
+  .summary-item p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .summary-item.grand-total p strong {
+    font-size: 16px;
   }
 
   .checkout-btn {
